@@ -1,0 +1,535 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/* Set background color for the entire website */
+body {
+    background-color: #eff4fd;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.social-icons-cta a {
+    margin-right: 5px; /* Adjust the margin to control the spacing between icons */
+}
+
+.social-icons-cta {
+    margin-top: 10px; /* Adjust the margin to control the space between icons and text */
+}
+
+.professional-text {
+    margin-top: 10px; /* Adjust the margin to control the space between text and icons */
+}
+
+
+/* Style the navigation links */
+.navigation {
+    display: flex;
+    list-style: none;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #eff4fd; /* Set the background color for the navigation bar */
+}
+
+/* Styling for the hero section */
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #eff4fd;
+}
+
+/* Styling for individual sections */
+.section {
+    padding: 100px 0; /* Add spacing between sections */
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: flex-end; /* Align to the right side */
+}
+
+.navigation li {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.navigation li a:hover {
+    color: red;
+}
+
+/* Styling for the detail section */
+.detail {
+    margin-left: 8%;
+    margin-top: 13%;
+}
+
+.detail h1 {
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+span {
+    color: orange;
+}
+
+.detail p {
+    color: #555;
+    line-height: 22px;
+}
+
+.detail a {
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+/* Styling for the images section */
+.images {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+/* Style the "About Me" section */
+
+.about {
+    margin-top: 80px; /* Adjust the margin-top value as needed to create the desired space */
+}
+
+.about-me {
+    background-color: #eff4fd;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.about-me h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px 0;
+    border-radius: 5px;
+    color: #333;
+}
+
+.about-content {
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center-align the container */
+    padding: 20px; /* Add padding for spacing */
+    text-align: center; /* Center-align the "About Me" heading */
+}
+
+.about-content h2 {
+    font-size: 24px; /* Adjust the font size for the heading */
+    margin-bottom: 20px; /* Add space below the heading */
+}
+
+.about-text {
+    background-color: #fff; /* Set a background color for the text container */
+    padding: 20px; /* Add padding to the text container */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Align the text to the left */
+}
+
+.about-text p {
+    font-size: 16px; /* Adjust the font size for paragraphs */
+    line-height: 1.5; /* Set line height for better readability */
+}
+
+.about-text ul {
+    list-style: none;
+    padding-left: 20px; /* Add some padding for bullet points */
+}
+
+.about-text li {
+    margin-bottom: 10px; /* Add space between list items */
+}
+
+.about-text i {
+    margin-right: 5px; /* Add space between the icon and text */
+}
+
+.about-content {
+    text-align: center; /* Center-align the text container */
+}
+
+.about-text p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 0; /* Add space above and below paragraphs */
+}
+
+.about {
+    margin-bottom: 80px; /* Adjust the value as needed */
+}
+
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    font-size: 16px;
+    margin-bottom: 10px; /* Add space between skill items */
+}
+
+.skills-list i {
+    font-size: 24px;
+    margin-right: 10px; /* Add space between icon and skill text */
+    color: orange; /* Customize the icon color */
+}
+
+
+/* services section styling */
+
+.services {
+    margin-top: 95px; /* Adjust the margin-top value as needed to create the desired space */
+}
+
+.title {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 23px;
+    text-align: center; /* Add this line to center-align the title */
+}
+.services, .teams{
+    color:#fff;
+    background: #eff4fd;
+}
+
+.services .text {
+    font-size: 15px; /* Adjust the font size as needed */
+    color: #fff; /* Text color */
+    margin-bottom: 18x; /* Add space below the text */
+    text-align: center; /* Center-align the text */
+}
+
+.services .title::before,
+.teams .title::before{
+    background: #fff;
+}
+
+.services .serv-content .card{
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.services .serv-content .card:hover{
+    background: orange;
+}
+.services .serv-content .card .box{
+    transition: all 0.3s ease;
+}
+.services .serv-content .card:hover .box{
+    transform: scale(1.05);
+}
+.services .serv-content .card i{
+    font-size: 50px;
+    color: orange;
+    transition: color 0.3s ease;
+}
+.services .serv-content .card:hover i{
+    color: #fff;
+}
+.services .serv-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+
+.serv-content {
+    display: flex;
+    flex-direction: column; /* Change from row to column */
+    align-items: center; /* Center-align the services */
+}
+
+.card {
+    margin: 10px 0; /* Add some vertical spacing between services */
+}
+
+/* Change the font color of "-What I Provide-" to black */
+.serv-content .text {
+    color: #345c8e;
+}
+
+
+
+/* Styles for the skills section */
+.skills {
+    background-color: #eff4fd;
+    padding: 70px 0;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Adjust the number of columns as needed */
+    gap: 20px;
+}
+
+.grid-item {
+    background-color: #fff;
+    padding: 10px; /* Decreased the padding for the boxes */
+    margin: 10px; /* Decreased the margin for the boxes */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.skill-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 15px; /* Decreased the font size for the skill names */
+}
+
+.progress-bar {
+    background-color: #eee;
+    height: 5px; /* Decreased the height of the progress bar */
+    border-radius: 5px; /* Adjusted the border-radius for the progress bar */
+    position: relative;
+}
+
+.skill-progress {
+    height: 100%;
+    border-radius: 10px; /* Adjusted the border-radius for the progress bar */
+    background-color: orange;
+}
+
+.skill-level {
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 14px; /* Decreased the font size for the skill levels */
+}
+  
+/*contact*/
+.contact {
+    background: #eff4fd;
+    padding: 50px; /* Add padding for spacing */
+  }
+  
+  .contact .contact-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px; /* Add space between title and content */
+  }
+  
+  .contact .contact-content .column {
+    width: calc(50% - 30px);
+    padding: 20px; /* Add padding for spacing */
+    background-color: #eff4fd; /* Add a background color to the left column */
+    border-radius: 10px; /* Add rounded corners */
+  }
+  
+  .contact .contact-content .text {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1e3551; /* Change the color of the text */
+    margin-bottom: 10px;
+  }
+  
+  .contact .contact-content .right-column form .fields {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact .contact-content .field input,
+  .contact .contact-content .textarea textarea {
+    border: 1px solid #ccc; /* Change the input border color */
+    border-radius: 6px;
+    outline: none;
+    padding: 10px 15px; /* Adjust padding for input fields */
+    font-size: 16px;
+    transition: black 0.3s ease;
+  }
+  
+  .contact .contact-content .field input:focus,
+  .contact .contact-content .textarea textarea:focus {
+    border-color: #1e3551; /* Change the border color on focus */
+  }
+  
+  .contact .contact-content .button-area button {
+    color: black;
+    display: block;
+    width: 160px !important;
+    height: 45px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    flex-wrap: nowrap;
+    background: orange;
+    border: 2px solid orange;
+    transition: all 0.3s ease;
+  }
+  
+  .contact .contact-content .button-area button:hover {
+    background: orange; /* Change the background color on hover */
+    color: orange;
+  }
+  
+  .info .head {
+    margin-bottom: 10px; /* Add space below each heading */
+}
+
+/* Add these styles for spacing and alignment */
+.contact .contact-content {
+    display: flex;
+    justify-content: space-between; /* Creates space between left and right columns */
+  }
+  
+  .contact .column {
+    flex-basis: calc(50% - 15px); /* Adjust this value for spacing */
+  }
+  
+  .contact .text {
+    display: flex;
+    align-items: center; /* Align text and icon vertically */
+    margin-bottom: 15px;
+  }
+
+  .contact .contact-content .row i {
+    font-size: 25px;
+    color: #1e3551;
+    margin-right: 50px; /* Add margin here */
+  }
+  
+  .contact .contact-content .info .sub-title {
+    color: #333;
+    margin-top: 7px; /* Add margin to create space between items */
+  }
+  
+  .contact {
+    text-align: center; /* Center-align the content within the .contact section */
+  }
+  
+  .contact .title {
+    margin: 0 auto; /* Center-align the title within the .contact section */
+  }
+  
+  .contact .contact-content {
+    display: flex;
+    justify-content: center; /* Center-align the columns within the .contact section */
+  }
+  
+  .contact .contact-content .column {
+    text-align: left; /* Align the content within each column to the left */
+  }
+  
+  
+
+
+
+.detail{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+
+.detail h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+span{
+    color: orange;
+}
+
+.detail p{
+    color: #555;
+    line-height: 22px;
+}
+
+.detail a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover .shape{
+    bottom: 40px;
+}
+
+.images:hover .picture{
+    left: 45%; 
+}
+
+footer {
+    background-color: #130e0e;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
